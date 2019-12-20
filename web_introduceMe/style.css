@@ -1,0 +1,49 @@
+*{
+    color: white;
+}
+body{
+    background: rgb(60, 60, 60)
+}
+
+h1{    
+    text-align: center;
+    color: yellow;
+}
+h1 a{
+    text-decoration: none;   
+    color: yellow;
+}
+h1 a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: square outside;
+    color: white;
+    text-align: left center;
+    font-size: 110%;
+}
+ul a{
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+h2{
+    color: deeppink;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+td, th{
+    border: 1px solid white;
+}
+td{
+    text-align: center;
+}

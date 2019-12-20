@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
 *{ /* 모든(전체) 선택자 : 모든 태그에 스타일 적용 ( 선택자 * ) */
     color: white; /*글자색을 설정한다*/
     /*text-shadow: 1px 1px gray;*/
 }
 body{
     background-color: black;
+    
+    font-family: 'Nanum Gothic';
+}
+#p1{
+    text-align: center
 }
 h1 /*, h2*/ { /* 태그 선택자 ( 모든 h1 태그에 대해서 아래 스타일을 적용한다 )
             , (쉼표)를 활용해 여러게 태그에 같은 스타일을 부여할 수 있다. */
     color : #ffff24;
+    font-family: 'Jua', sans-serif; /* 웹폰트 설정 */
     text-align: center; /* 가운데 정렬 ( text-align 이기에 이미지는 적용 X ) */ 
 }
 h1 a { /*계층 선택자 ( h1 태그 안의 a 태그에 스타일 적용 )*/
@@ -58,4 +67,19 @@ div.my_lover{
     background-position: center;
     text-shadow: 1px 1px gray;
     /* center center - > center*/
+}
+table{
+    width : 90%;
+}
+td{
+    background-color: #ff7060;
+    text-align: center;
+    font-size: 11pt;
+    border-bottom: 1px solid white;
+}
+th{
+    background-color: #ff70a0;
+    height: 2em; /* em은 대문자 높이 A (1) 일때, 2.0은 2배 적용*/
+    font-size: 15pt;
+    border-bottom: 2px solid white;
 }
