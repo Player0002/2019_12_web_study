@@ -1,0 +1,134 @@
+<!DOCTYPE html> <!-- HTML 5를 시작한다-->
+<html lang="ko"> <!-- HTML DOC START-->
+<head> <!-- Initialzation - 문서의 정보들이 이곳에 들어가게됨. -->
+    <meta charset="UTF-8"> <!-- Encoding Settings  ( EUC-KR -> UTF-8 대소문자 구분은 상관없음 ) -->
+    <title>THIS IS TITLE!</title> <!-- 웹페이지 탭에 표시되는 이름을 설정한다.(CHROME 기준 제목 표시줄) -->
+</head>
+<body> <!-- 눈에 보여질 부분이 들어가게 된다. FRONT SIDE-->
+    <!-- a tag의 속성 target 의 속성값 "_blank"는 새창으로 뜨고, 안쓰면 default _self 가 들어가 자신의 창에서 연결되게 된다. -->
+    <h1><a target="_blank" href="index.html">좋아하는 동물</a></h1> <!-- 제목 태그 h1  ~  h6 까지 존재하며 h1이 제일 크고 h6가 제일 작다.-->
+    <h3>East water!</h3>
+    <hr>
+    <ul>
+        <li><a href="#what">What is east water?</a></li> <!-- 목록 태그는 닫는부분 생략 가능 -->
+        <li><a href="#best">My lover east water top 3</a></li>
+        <li><a href="#view_of_pic">The east water view of picture</a></li>
+        <li><a href="#last">EAST WATER!</a></li>
+    </ul> <!-- Unordered list -> 숫자가 아닌 원으료 표시됨. 다중 리스트는 네모-->
+    <hr>
+    
+    
+    
+    <!-- 보통 구조를 잡을때 가장 큰 제목을 h1으로 줬다면 작은 제목으로 박을떄는 작은걸로 박는게 이뻐보임.-->
+    <!-- Global attribute ( 모든 태그에 사용 가능한 속성 ) -->
+    <!-- id ( 아이디명 중복 금지 ), class ( 클래스명 중복 가능) , style ( 인라인 스타일 ) -->
+    <h2 id="what">What is east water?</h2>
+    <p>
+        East Water is a UK supplier of drinking water to 2.2 million consumers in <br>
+        Kent, Sussex, Surrey, Hampshire and Berkshire and is a private limited company registered in <br>
+        England and Wales with company number 02679874.
+    </p> <!-- p태그 만의 여백이 존재하게 됨. p -> 문단 태그 -->
+    <img src="data:image/jpeg;base64,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"
+     alt="Undefined" width="300" height="300"> 
+     <hr>
+     <h2 id="best">My lover east water top 3</h2>
+    <details> <!-- summary 태그의 내용을 클릭하면 아래 내용이 보이게 됨.-->
+        <summary>    
+            1위
+        </summary>
+        <h4>Top 1 is <mark>South east water</mark></h4> <!-- Mark 는 형광팬 효과를 내줌.-->
+        <p><i>South east water</i>   is one of three Victorian Government owned retail water corporations that provides drinking water, sewerage, trade waste, recycled water and water-saving services for residents and businesses in an area ranging from the south-east of Melbourne to south Gippsland in Australia. The water distributed by South East Water is supplied by Melbourne Water, as is the infrastructure. Oversight is provided by the Department of Environment, Land, Water and Planning.</p> <!-- i는 이텔릭체로 누워있는 글씨를 보여줌-->
+        <img src="data:image/png;base64,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"
+         alt="HELLO WORLD">
+    </details>
+
+    <details>
+        <summary>    
+            2위
+        </summary>
+        <h4>Top 2 is <mark>Undefined!</mark></h4>
+        <p><i>DATA IS UNDEFINED!</i> </p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHVpbl3lTJnIuXYVQPY1aOoI3UVB6XCXM2qvpl7D4cGXEofvSHQ&s"
+         alt="Undefined!" width="300" height="100">
+    </details>
+
+    <details>
+        <summary>    
+            3위
+        </summary>
+        <h4>Top 3 is <mark>Undefined!</mark></h4>
+        <p><del>DATA IS UNDEFINED!</del> </p> <!-- del은 취소선을 나타낸다.-->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHVpbl3lTJnIuXYVQPY1aOoI3UVB6XCXM2qvpl7D4cGXEofvSHQ&s"
+         alt="Undefined!" width="300" height="100">
+    </details>
+
+    <hr>
+
+    <h2 id="view_of_pic">The east water view of picture</h2>
+    <p> click picture! </p> <!-- 사진에서 링크를 넘기는 방법 - map 태그 -->
+    <img src="0.jfif" usemap="#maptest">
+    <map name="maptest">
+        <!-- rect ( p1 (x, y) , p2 ( x, y ) )-->
+        <!-- circle ( mid( x, y ) , rad(반지름) )-->
+        <area shape="rect" coords="412, 123, 459, 223" href="https://en.wikipedia.org/wiki/Person" target="_blank" alt="Person">
+        <area shape="rect" coords="176,167,326,237" href="https://en.wikipedia.org/wiki/Water" target="_blank" alt="Water">
+        <area shape="rect" coords="0, 30, 469, 120" href="https://en.wikipedia.org/wiki/Forest" target="_blank" alt="Forest">
+    </map>
+
+    <hr>
+
+    <h2 id="last">EAST WATER!</h2>
+    <!-- 테이블 -->
+    <!-- tr 행 th, td 열 (th는 기본적으로 제목을 나타냄, td는 데이터로써 가운데정렬 자동 X)-->
+    <!--Caption - 테이블의 제목을나타낸다.-->
+    <table>
+        <caption>
+            <strong>Compare</strong>
+        </caption>
+        <tr>
+            <th></th>
+            <th> Is make water </th>
+            <th> How much create </th>
+        </tr>
+        <tr>
+            <td>South East Water</td>
+            <td style="text-align: center;">O</td>
+            <td style="text-align: center;">521m per day</td>
+        </tr>
+        <tr>
+            <td>A group</td>
+            <td style="text-align: center;">O</td>
+            <td style="text-align: center;">1m per day</td>
+        </tr>
+        <tr>
+            <td>B group</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">0 per day</td>
+        </tr>
+    </table>
+
+    <h4> Some video... &#9749;</h4>
+
+    <!--<audio src="" type="audio.mpeg"></audio>-->
+    <!--<video src="notdefined" type="video/mp4" controls(controls="controls", 속성과 값이 같은경우 그냥 controls만 입력해줘도 됨.) poster="img_link ( Preview image )" width="600" height="400"></video>-->
+    
+    <iframe width="640" height="480" src="https://www.youtube.com/embed/rkDIIQBB4yQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    
+    <h2>About HTML 5 Forms</h2>
+    <form>
+        input type =  "number " : <input type="number" min="1" max="5"> <br>
+        input type = "color" : <input type="color"> <br>
+        input type = "email" : <input type="email"> <br>
+        input type = "date" : <input type="date"> <br>
+        input type = "datetime-local" : <input type="datetime-local"> <br>
+        input type = "month" : <input type="month"> <br>
+        input type = "range" : <input type="range" min="0" max="100"> <br>
+        input type = "search" : <input type="search"> <br>
+        input type = "tel" : <input type="tel"> <br>
+        input type = "time" : <input type="time"> <br>
+        input type = "url" : <input type="url"> <br>
+        input type = "week" : <input type="week"> <br>
+    </form>
+</body>
+</html> <!-- HTML DOC END -->
