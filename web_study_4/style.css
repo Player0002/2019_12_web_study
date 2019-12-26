@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+*{
+    padding : 0;
+    margin : 0;
+    font-family: 'Ubuntu';
+}
+body{
+    background-color: #DFDFDF;
+}
+header{
+    background-color: #734E39;
+    color: white;
+    height: 140px;
+    width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    padding: 12px 12px 5px 12px;
+    text-align: center;
+    font-size: 240%;
+}
+h4{
+    text-align: center;
+    color : #E3E3E3;
+    padding: 0 0 20px 0;
+}
+nav{
+    text-align: center;
+    margin-top: 11px;
+}
+nav ul{
+    display: inline-block;
+    background-color: #A67C58;
+    border-bottom: none;
+    border-top: none;
+}
+nav ul li{
+    list-style: none;
+    padding: 6px 0;
+    width: 120px;
+    float:left;
+    text-align: center;
+    border-left: 2px solid #966C48;
+    border-right: 2px solid #966C48;
+}
+nav ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    background-color: #966C48;
+}
+#site_contents{
+    width: 970px;
+    margin: 0 auto;
+    border: 15px solid #966C48;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 700px;
+}
+#site_contents section{
+    float: left;
+    width: 70%;
+    height: 580px;
+    padding: 10px 20px;
+}
+#site_contents h2{
+    padding: 10px 0;
+}
+#site_contents p{
+    padding-bottom: 20px;
+    font-family: 'Rubik';
+}
+#site_contents aside{
+    float: right;
+    width: 25%;
+    height: 600px;
+}
+#site_contents aside ul li{
+    list-style: url("images/cup-of-drink.png");
+}
+
+#site_contents aside h3{
+    padding: 20px 5px 5px 5px;
+}
+#site_contents aside ul{
+    padding: 0 35px;
+}
+#site_contents aside ul li a{
+    text-decoration: none;
+    color: #63AEBF;
+}
+#site_contents aside p{
+    padding: 0 5px;
+}
+
+
+footer{
+    clear: both;
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+footer p{
+    padding: 10px 0;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #262922;
+    letter-spacing: 2px;
+}
+footer a{
+    text-decoration: none;
+    color: #561912;
+    letter-spacing: 2px;
+}
+table{
+    margin: 60px auto;
+}
