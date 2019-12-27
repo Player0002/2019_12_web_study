@@ -16,6 +16,55 @@ header{
     width: 1000px;
     margin: 0 auto;
 }
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    animation: slide 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.side, h2, h3, aside p {
+    animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+img{
+    animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        filter: blur(6px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes puff-in-center {
+    0% {
+        transform: scale(0.5);
+        filter: blur(2px);
+         opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+  
+
+@keyframes slide{
+    from{
+        margin-left: 5%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
 h1{
     padding: 12px 12px 5px 12px;
     text-align: center;
@@ -54,12 +103,12 @@ nav ul li:hover{
     background-color: #966C48;
 }
 #site_contents{
+    height: 720px;
     width: 970px;
     margin: 0 auto;
     border: 15px solid #966C48;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: 700px;
 }
 #site_contents section{
     float: left;

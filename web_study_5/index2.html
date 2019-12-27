@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>반응형 연습2</title>
+    <script type="text/javascript" src="js/repond.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding : 0;
+        }
+        body, #wrapper{
+            width: 100%;
+            height: 100%;
+        }
+        .box{
+            display:none;
+            background-color: gray;
+        }
+        @media all and (max-width : 700px){
+            .xs{
+                display: block;
+                height: 25%;
+            }
+            .sm{
+                display: none;
+            }
+            .ml{
+                display: none;
+            }
+            .lg{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class = "box xs"> 아주 작음 </div>
+        <div class = "box sm">  작음 </div>
+        <div class = "box ml"> 조금 큼 </div>
+        <div class = "box lg"> 아주 큼 </div>
+    </div> 
+</body>
+</html>
